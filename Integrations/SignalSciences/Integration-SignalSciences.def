@@ -1,0 +1,70 @@
+{
+    "Name": null,
+    "UpdateAvailable": null,
+    "LatestVersion": null,
+    "Id": 0,
+    "Identifier": "SignalSciences",
+    "Custom": false,
+    "Parameters": [
+        {
+            "Id": 0,
+            "Mandatory": true,
+            "DefaultValue": "https://dashboard.signalsciences.net",
+            "Description": "The base API root URL for Signal Sciences.",
+            "DisplayName": "API Root",
+            "PropertyName": "API Root",
+            "Type": "String"
+        },
+        {
+            "Id": 0,
+            "Mandatory": true,
+            "DefaultValue": null,
+            "Description": "The email address associated with the Signal Sciences account.",
+            "DisplayName": "Email",
+            "PropertyName": "Email",
+            "Type": "String"
+        },
+        {
+            "Id": 0,
+            "Mandatory": true,
+            "DefaultValue": null,
+            "Description": "The API token used for authentication with Signal Sciences.",
+            "DisplayName": "API Token",
+            "PropertyName": "API Token",
+            "Type": "Password"
+        },
+        {
+            "Id": 0,
+            "Mandatory": true,
+            "DefaultValue": null,
+            "Description": "The unique name of the organization or corporation context as defined in Signal Sciences.",
+            "DisplayName": "Corporation Name",
+            "PropertyName": "Corporation Name",
+            "Type": "String"
+        },
+        {
+            "Id": 0,
+            "Mandatory": false,
+            "DefaultValue": "true",
+            "Description": "If selected, the integration validates the SSL certificate when connecting to the Signal Sciences server.",
+            "DisplayName": "Verify SSL",
+            "PropertyName": "Verify SSL",
+            "Type": "Boolean"
+        }
+    ],
+    "Certified": false,
+    "ProductionIdentifier": null,
+    "Type": "Response",
+    "Internal": false,
+    "Version": "1",
+    "DisplayName": "SignalSciences",
+    "Description": "Integration for SignalSciences",
+    "ImageBase64": null,
+    "SvgIcon": null,
+    "PythonVersion": "V3_11",
+    "Categories": [
+        "Security"
+    ],
+    "Staging": false,
+    "IsCustom": false
+}
