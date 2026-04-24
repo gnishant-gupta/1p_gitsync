@@ -1,5 +1,21 @@
 [
     {
+        "name": "projects/project/locations/location/instances/instance/environments/2",
+        "id": 0,
+        "system": false,
+        "displayName": "test",
+        "description": "test",
+        "contact": "Nishant Gupta",
+        "contactEmails": "nishantg@hcltech.com",
+        "contactPhone": "999999999999",
+        "retentionDuration": 3,
+        "dynamicParameters": [],
+        "aliasesJson": "[]",
+        "dataAccessScopesJson": "[]",
+        "instanceUri": "",
+        "weight": 1
+    },
+    {
         "name": "projects/project/locations/location/instances/instance/environments/1",
         "id": 0,
         "system": true,
